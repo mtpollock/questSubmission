@@ -19,3 +19,9 @@
 *2.* _In your opinion, even without knowing anything about the Blockchain or coding, why could the 5 Pillars be useful_
 * **Safety and Security** - interacting with people online has a lot of moments of interacting with people you do not know and could use their almost anonimoty to take advantage of you - being able to interact with people online safer with more security will be very useful to speed up exchanges as you will not need to first go through as many hoops to prevent bad interactions. **Clarity** in this instance refers to clarity of code - which is useful to allow more auditing of code and its function. More auditing will allow more mistakes to be caught while also preventing bad-actors from writing subtle features to take advantage of others. **Approachability** is important as it relates to the translation of skills making it easier for current devolopers to engage with the new language and speed up the adoption of Cadence / Flow. **Developer Experience** refers to the activing of writing and debugging code the way the language is constructed allows for easier debugging which is likely one of the longer parts of the development process - so speeding that up could be a big win!
 
+# Chapter 3 Quests
+
+<img width="1437" alt="Screen Shot 2022-07-11 at 8 00 34 PM" src="https://user-images.githubusercontent.com/48837692/178372941-e13ada6d-07dc-445e-bcfa-d50db1016c1d.png">
+<img width="1420" alt="Screen Shot 2022-07-11 at 8 00 46 PM" src="https://user-images.githubusercontent.com/48837692/178372947-777a1846-f42c-4b80-be59-443e8d0503e1.png">
+
+
