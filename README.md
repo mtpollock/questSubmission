@@ -36,7 +36,8 @@
 * Prepare refers to the steps taken when initatiting the transaction - it is the section where you can first access information / data on an account. While execute is the syntax referring to what is done in the transaction, the meat on what is being requested / done. 
 
 *4. Add two new things inside your contract: A variable named myNumber that has type Int (set it to 0 when the contract is deployed. A function named updateMyNumber that takes in a new number named newNumber as a parameter that has type Int and updates myNumber to be newNumber. Add a script that reads myNumber from the contract. Add a transaction that takes in a parameter named myNewNumber and passes it into the updateMyNumber function. Verify that your number changed by running the script again.
+<img width="732" alt="Screen Shot 2022-07-12 at 3 19 57 PM" src="https://user-images.githubusercontent.com/48837692/178566211-2d09f7a1-3529-4219-a6ac-b49a83b120fb.png">
+<img width="800" alt="Screen Shot 2022-07-12 at 3 20 03 PM" src="https://user-images.githubusercontent.com/48837692/178566230-1f787c0e-c8ec-4fbf-abc3-b8b1c80798fe.png">
+<img width="1153" alt="Screen Shot 2022-07-12 at 3 20 10 PM" src="https://user-images.githubusercontent.com/48837692/178566251-e63591be-2b37-43a3-aae3-e310217c0b09.png">
 
-![Uploading Screen Shot 202<img width="790" alt="Screen Shot 2022-07-12 at 3 17 44 PM" src="https://user-images.githubusercontent.com/48837692/178566003-b2e45659-8054-4485-909e-dce3bed87701.png">
-2-07-12<img width="1140" alt="Screen Shot 2022-07-12 at 3 18 17 PM" src="https://user-images.githubusercontent.com/48837692/178566004-3e6895bd-6c1e-4b1b-8398-30e1c377f8c6.png">
- at 3.17.32 PM.png…]()
+
