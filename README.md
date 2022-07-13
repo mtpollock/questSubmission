@@ -48,3 +48,6 @@
 *2. In a script, initialize a dictionary that maps the Strings Facebook, Instagram, Twitter, YouTube, Reddit, and LinkedIn to a UInt64 that represents the order in which you use them from most to least. For example, YouTube --> 1, Reddit --> 2, etc. If you've never used one before, map it to 0!*
 <img width="1183" alt="Screen Shot 2022-07-12 at 10 24 01 PM" src="https://user-images.githubusercontent.com/48837692/178628465-2e3cf570-f4db-4e57-aa05-f7aaa3de686f.png">
 
+*3. Explain what the force unwrap operator ! does, with an example different from the one I showed you (you can just change the type).*
+<img width="802" alt="Screen Shot 2022-07-12 at 10 31 50 PM" src="https://user-images.githubusercontent.com/48837692/178629270-a6fb8657-4540-4f5c-ba9c-a7bfcaab428a.png">
+
