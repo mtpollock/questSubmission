@@ -40,4 +40,8 @@
 <img width="800" alt="Screen Shot 2022-07-12 at 3 20 03 PM" src="https://user-images.githubusercontent.com/48837692/178566230-1f787c0e-c8ec-4fbf-abc3-b8b1c80798fe.png">
 <img width="1153" alt="Screen Shot 2022-07-12 at 3 20 10 PM" src="https://user-images.githubusercontent.com/48837692/178566251-e63591be-2b37-43a3-aae3-e310217c0b09.png">
 
+# Chapter 2 Day 3 Quests
+
+*1. In a script, initialize an array (that has length == 3) of your favourite people, represented as Strings, and log it.*
+<img width="518" alt="Screen Shot 2022-07-12 at 10 15 13 PM" src="https://user-images.githubusercontent.com/48837692/178627552-e594c205-8d23-4ead-ba08-c164bc79618a.png">
 
