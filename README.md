@@ -45,3 +45,6 @@
 *1. In a script, initialize an array (that has length == 3) of your favourite people, represented as Strings, and log it.*
 <img width="518" alt="Screen Shot 2022-07-12 at 10 15 13 PM" src="https://user-images.githubusercontent.com/48837692/178627552-e594c205-8d23-4ead-ba08-c164bc79618a.png">
 
+*2. In a script, initialize a dictionary that maps the Strings Facebook, Instagram, Twitter, YouTube, Reddit, and LinkedIn to a UInt64 that represents the order in which you use them from most to least. For example, YouTube --> 1, Reddit --> 2, etc. If you've never used one before, map it to 0!*
+<img width="1183" alt="Screen Shot 2022-07-12 at 10 24 01 PM" src="https://user-images.githubusercontent.com/48837692/178628465-2e3cf570-f4db-4e57-aa05-f7aaa3de686f.png">
+
