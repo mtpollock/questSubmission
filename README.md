@@ -9,7 +9,7 @@
 * A smart contract is a defined ruleset on the blockchain that can be engaged with. They are the roads that define engaging with the blockchain!
 
 *3.* _Explain the difference between a script and a transaction:_
-* A script is logic run on a computer to generate a result. A transaction is the declaration of logic on the blockchain that is run only if it passes requirements set up in its request. The difference between a script and a transaction is that a script is not necissarily run on the blockchain while a transaction must be and a script doesn't need to pass external requirements to be run (often the requirments are money related for transactions - "do you have enough currency on the blockchain to run this transaction?")
+* A script in blockchain is also run on the blockchain to get information. A script is logic run on a computer to generate a result. A transaction is the declaration of logic on the blockchain that is run only if it passes requirements set up in its request. The difference between a script and a transaction is that a script is not necissarily run on the blockchain while a transaction must be and a script doesn't need to pass external requirements to be run (often the requirments are money related for transactions - "do you have enough currency on the blockchain to run this transaction?")
 
 # Chapter 2 Day 1 Quests
 
