@@ -57,4 +57,4 @@
   How to fix it!
 <img width="1361" alt="wrongcode" src="https://user-images.githubusercontent.com/48837692/178748414-635f9108-77aa-45f4-8376-ec0a8c10e64d.png">
 
-The error message is saying the type of the returned object does not match the stated type in the function. We are getting this error as dictionaries return a value as an optional! there are two ways that I know how to fix this error - 1. request an optional in the original function. Change the function to ask for a String? or to unwrapped the optional in the return statement to convert it to a string by return thing[0x03]!
+The error message is saying the type of the returned object does not match the stated type in the function. We are getting this error as dictionaries return a value as an optional! there are 2 ways that I know how to fix this error - 1. request an optional in the original function. Change the function to ask for a **String?** or 2. to unwrapped the optional in the return statement to convert it to a string by ***return thing[0x03]!***
