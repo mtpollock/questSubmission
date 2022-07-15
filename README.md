@@ -58,3 +58,71 @@
 <img width="1361" alt="wrongcode" src="https://user-images.githubusercontent.com/48837692/178748414-635f9108-77aa-45f4-8376-ec0a8c10e64d.png">
 
 The error message is saying the type of the returned object does not match the stated type in the function. We are getting this error as dictionaries return a value as an optional! there are 2 ways that I know how to fix this error - 1. request an optional in the original function. Change the function to ask for a **String?** or 2. to unwrapped the optional in the return statement to convert it to a string by ***return thing[0x03]!***
+
+# Chapter 2 Day 4 Quests
+
+*1. Deploy a new contract that has a Struct of your choosing inside of it (must be different than Profile).*
+*2.Create a dictionary or array that contains the Struct you defined.*
+*3.Create a function to add to that array/dictionary.*
+
+answers to Q 1+2+3 are in the contract below. 
+
+```
+pub contract BookReviews {
+  
+  pub var books: {String: Book}
+
+  pub struct Book {
+    pub let title: String
+    pub let author: String
+    pub let description: String
+    pub let reviewer: String
+    pub let review: String
+    pub let rating: UFix64
+
+    init(title: String, author: String, description: String, reviewer: String, review: String, rating: UFix64 ) {
+      self.title = title
+      self.author = author
+      self.description = description
+      self.reviewer = reviewer
+      self.review = review
+      self.rating = rating
+    }
+  }
+
+  pub fun addBook(title: String, author: String, description: String, reviewer: String, review: String, rating: UFix64){
+    let newBook = Book(title: title, author: author, description: description, reviewer: reviewer, review: review, rating: rating)
+    self.books[title] = newBook
+  }
+
+  init() {
+    self.books = {}
+  }
+}
+```
+
+*4. Add a transaction to call that function in step 3.*
+
+```
+import BookReviews from 0x02
+
+transaction(title: String, author: String, description: String, reviewer: String, review: String, rating: UFix64) {
+
+    prepare(signer: AuthAccount) {}
+
+    execute {
+        BookReviews.addBook(title: title, author: author, description: description, reviewer: reviewer, review: review, rating: rating)
+        log("We're done.")
+    }
+}
+```
+
+*5. Add a script to read the Struct you defined.*
+
+```
+import BookReviews from 0x02
+
+pub fun main(): BookReviews.Book {
+    return BookReviews.books["Dune"]!
+}
+```
