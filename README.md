@@ -126,3 +126,44 @@ pub fun main(): BookReviews.Book {
     return BookReviews.books["Dune"]!
 }
 ```
+
+# Chapter 3 Day 1 Quests
+
+*1. In words, list 3 reasons why structs are different from resources.*
+Structs are different then resources because a struct can be copied, a struct can be created outside of a contract and they can be created but not engaged with (and also created and forgotten! making them possible to lose).
+
+*2. Describe a situation where a resource might be better to use than a struct.*
+a resource may be a good thing to use if you, as a game designer, are wanting to give a golden-key to a user that allows them to not need to pay for anything in store for as long as the product exists. A Resource does a good job of creating that and managing that objects existance without creating a security hole where it gets copied + moved around without you knowing. 
+
+*3. What is the keyword to make a new resource?*
+Create
+
+*4. Can a resource be created in a script or transaction (assuming there isn't a public function to create one)?*
+No a resource as I understand it cannot be created in a script or transaction but only in a contract. 
+
+*5. What is the type of the resource below?*
+```
+pub resource Jacob {
+
+}
+```
+I think the resource is of type **Jacob**
+
+*6. Let's play the "I Spy" game from when we were kids. I Spy 4 things wrong with this code. Please fix them.*
+pub contract Test {
+```
+pub resource Jacob {
+        pub let rocks: Bool
+        init() {
+            self.rocks = true
+        }
+    }
+
+    pub fun createJacob(): @Jacob { // there is 1 here
+        let myJacob <- create Jacob() // there are 2 here
+        return <- myJacob // there is 1 here
+    }
+}
+```
+
+The issues that I found was a missing **@** character, an = instead of a **<-**, a missing **create** and a missing **<-** in the return statement. 
