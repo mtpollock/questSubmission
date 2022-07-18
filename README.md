@@ -147,7 +147,7 @@ pub resource Jacob {
 
 }
 ```
-I think the resource is of type **Jacob**
+I think the resource is of type **@Jacob**
 
 *6. Let's play the "I Spy" game from when we were kids. I Spy 4 things wrong with this code. Please fix them.*
 pub contract Test {
